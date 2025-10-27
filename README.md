@@ -23,8 +23,8 @@ It’s designed to promote travel, nature exploration, and digital storytelling 
 
 | Technology | Purpose |
 |-------------|----------|
-| **HTML5 / CSS3** | Structure & Styling |
-| **JavaScript (ES6)** | Interactivity & dynamic content |
+| **HTML5 / Tailwind** | Structure & Styling |
+| **TypeScript/ JS (ES6)** | Interactivity & dynamic content |
 | **Bootstrap / TailwindCSS** | Responsive layouts |
 | **Node.js / Express** *(optional)* | For backend booking API |
 | **Firebase / Formspree** *(optional)* | For contact form integration |
