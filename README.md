@@ -1,70 +1,39 @@
-# React + TypeScript + Vite
+# 🦓 Safari Adventures Website  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautifully designed and responsive **Safari and Wildlife Tourism Website** built using **HTML, CSS, and JavaScript** (or your stack — React, Laravel, etc.).  
 
-Currently, two official plugins are available:
+This project showcases **African safari experiences**, **tour packages**, **wildlife destinations**, and a smooth **booking flow** for visitors.  
+It’s designed to promote travel, nature exploration, and digital storytelling for tourism platforms.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌍 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🦁 **Beautiful UI/UX** showcasing wildlife, parks, and tours  
+- 📱 **Fully Responsive Design** (mobile & desktop friendly)  
+- 🧭 **Interactive Navigation** with smooth scroll and animations  
+- 🎫 **Safari Packages Section** (pricing, booking, itinerary)  
+- 🖼️ **Gallery & Media Highlights** of destinations  
+- 📩 **Contact & Booking Form** integrated with email service  
+- ⚙️ Built for scalability — easy to integrate with backend or CMS  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🧩 Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Technology | Purpose |
+|-------------|----------|
+| **HTML5 / CSS3** | Structure & Styling |
+| **JavaScript (ES6)** | Interactivity & dynamic content |
+| **Bootstrap / TailwindCSS** | Responsive layouts |
+| **Node.js / Express** *(optional)* | For backend booking API |
+| **Firebase / Formspree** *(optional)* | For contact form integration |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Getting Started
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# Safaris
+Clone the repository:
+
+```bash
+git clone https://github.com/kevmongare/safari-website.git
