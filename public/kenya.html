@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kenya Safaris</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/src/assets/logo.png" />
+      <link rel="stylesheet" href="/public/kenya.css" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="topbar__inner">
+        <a class="brand" href="/public/kenya.html">
+          <img
+            class="brand__img"
+            src="/src/assets/viagens logo-color.png"
+            alt="Safari Africa"
+          />
+        </a>
+
+        <nav class="nav">
+          <div class="nav__item" data-dropdown>
+            <button class="nav__btn" type="button" aria-expanded="false">
+              Destinations
+            </button>
+            <div class="dropdown" role="menu">
+              <a class="dropdown__link" href="#masai-mara">Masai Mara</a>
+              <a class="dropdown__link" href="#meru">Meru National Park</a>
+              <a class="dropdown__link" href="#lake-nakuru">Lake Nakuru</a>
+              <a class="dropdown__link" href="#tsavo-west">Tsavo West</a>
+              <a class="dropdown__link" href="#tsavo-east">Tsavo East</a>
+              <a class="dropdown__link" href="#amboseli">Amboseli</a>
+              <a class="dropdown__link" href="#nairobi">Nairobi National Park</a>
+              <a class="dropdown__link" href="#naivasha">Lake Naivasha</a>
+              <a class="dropdown__link" href="#aberdare">Aberdare National Park</a>
+              <a class="dropdown__link" href="#samburu">Samburu National Park</a>
+            </div>
+          </div>
+
+          <a class="nav__item nav__link" href="#about">About</a>
+          <a class="nav__item nav__link" href="#packages">Packages</a>
+          <a class="nav__item nav__link" href="#contact">Contact</a>
+        </nav>
+
+        <a class="cta" href="#contact">Enquire</a>
+
+        <button class="hamburger" type="button" aria-label="Menu" data-mobile-menu>
+          ☰
+        </button>
+      </div>
+
+      <div class="mobile" data-mobile-panel>
+        <a class="mobile__link" href="#masai-mara">Masai Mara</a>
+        <a class="mobile__link" href="#meru">Meru National Park</a>
+        <a class="mobile__link" href="#lake-nakuru">Lake Nakuru</a>
+        <a class="mobile__link" href="#tsavo-west">Tsavo West</a>
+        <a class="mobile__link" href="#tsavo-east">Tsavo East</a>
+        <a class="mobile__link" href="#amboseli">Amboseli</a>
+        <a class="mobile__link" href="#nairobi">Nairobi National Park</a>
+        <a class="mobile__link" href="#naivasha">Lake Naivasha</a>
+        <a class="mobile__link" href="#aberdare">Aberdare National Park</a>
+        <a class="mobile__link" href="#samburu">Samburu National Park</a>
+        <a class="mobile__link" href="#packages">Packages</a>
+        <a class="mobile__link" href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Kenya hero">
+        <div class="hero__bg" role="img" aria-label="Safari background"></div>
+        <div class="hero__content">
+          <h1>Kenya Safaris</h1>
+          <p>
+            Explore iconic wildlife experiences across Kenya—savannahs, lakes, mountains and
+            unforgettable moments.
+          </p>
+          <a class="hero__btn" href="#packages">View Kenya Packages</a>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>Why Kenya?</h2>
+          <p>
+            From the Great Migration in Maasai Mara to the Big Five in Tsavo and the
+            birdlife-rich shores of Lake Nakuru—Kenya delivers world-class safari adventures.
+          </p>
+        </div>
+      </section>
+
+      <section id="kenya-destinations" class="section section--gray">
+        <div class="container">
+          <h2>Top Kenyan Destinations</h2>
+          <div class="grid">
+            <article id="masai-mara" class="card">
+              <img
+                class="card__img"
+                src="/src/assets/destinationsPictures/Masaimara/MasaiMara.jpg"
+                alt="Masai Mara"
+              />
+              <div class="card__body">
+                <h3>Masai Mara</h3>
+                <p>Big cats, dramatic landscapes, and the famous wildebeest migration.</p>
+              </div>
+            </article>
+
+            <article id="meru" class="card">
+              <img
+                class="card__img"
+                src="/src/assets/Kenya/Meru/images (2).jpeg"
+                alt="Meru National Park"
+              />
+              <div class="card__body">
+                <h3>Meru National Park</h3>
+                <p>Wildlife-rich forests and sweeping savannah scenes.</p>
+              </div>
+            </article>
+
+            <article id="lake-nakuru" class="card">
+              <img
+                class="card__img"
+                src="/src/assets/Kenya/Lakenakuru/The-Wonders-of-Lake-Nakuru-National-Park--750x389.jpg"
+                alt="Lake Nakuru"
+              />
+              <div class="card__body">
+                <h3>Lake Nakuru</h3>
+                <p>Flamingos, rhinos and exceptional birdwatching.</p>
+              </div>
+            </article>
+
+            <article id="tsavo-west" class="card">
+              <img
+                class="card__img"
+                src="/src/assets/Packages/EasAfrica/Rhino_Lodge_tanzania_veranda.webp"
+                alt="Tsavo West"
+              />
+              <div class="card__body">
+                <h3>Tsavo West</h3>
+                <p>Big tuskers, red earth, and legendary wildlife sightings.</p>
+              </div>
+            </article>
+
+            <article id="tsavo-east" class="card">
+              <img
+                class="card__img"
+                src="/src/assets/Main/Sarara-Kenya.jpg"
+                alt="Tsavo East"
+              />
+              <div class="card__body">
+                <h3>Tsavo East</h3>
+                <p>Riverine habitats and a stunning safari backdrop.</p>
+              </div>
+            </article>
+
+            <article id="amboseli" class="card">
+              <img
+                class="card__img"
+                src="/src/assets/Kenya/Amboseli/Alone-Maasai-Warrior-at-Amboseli-National-Park-1024x683.webp"
+                alt="Amboseli"
+              />
+              <div class="card__body">
+                <h3>Amboseli</h3>
+                <p>Classic views of Kilimanjaro and vast elephant country.</p>
+              </div>
+            </article>
+
+            <article id="nairobi" class="card">
+              <img
+                class="card__img"
+                src="/src/assets/Kenya/Nairobi/Nairobi-National-Park-700x450-1.jpg"
+                alt="Nairobi National Park"
+              />
+              <div class="card__body">
+                <h3>Nairobi National Park</h3>
+                <p>Great wildlife close to the city—perfect for quick safari breaks.</p>
+              </div>
+            </article>
+
+            <article id="naivasha" class="card">
+              <img
+                class="card__img"
+                src="/src/assets/Kenya/Diani/diani-sunbeds-1.jpg"
+                alt="Lake Naivasha"
+              />
+              <div class="card__body">
+                <h3>Lake Naivasha</h3>
+                <p>Lake life, boating options, and abundant bird species.</p>
+              </div>
+            </article>
+
+            <article id="aberdare" class="card">
+              <img
+                class="card__img"
+                src="/src/assets/destinationsPictures/Masaimara/homey2.jpg"
+                alt="Aberdare National Park"
+              />
+              <div class="card__body">
+                <h3>Aberdare</h3>
+                <p>Mist forests, waterfalls, and unforgettable highland wildlife.</p>
+              </div>
+            </article>
+
+            <article id="samburu" class="card">
+              <img
+                class="card__img"
+                src="/src/assets/Packages/EasAfrica/Flamingo-Hill-Camp-10.jpg"
+                alt="Samburu National Park"
+              />
+              <div class="card__body">
+                <h3>Samburu</h3>
+                <p>Distinct northern species and dramatic landscapes.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="packages" class="section">
+        <div class="container">
+          <h2>Kenya Safari Packages</h2>
+          <p class="muted">Sample itinerary highlights. Enquire to get a tailored quote.</p>
+
+          <div class="grid grid--2">
+            <article class="offer">
+              <h3>5 Days – Masai Mara & Nairobi</h3>
+              <ul>
+                <li>Game drives in Masai Mara</li>
+                <li>City wildlife & scenic experiences</li>
+                <li>Comfort stays and safari logistics</li>
+              </ul>
+            </article>
+
+            <article class="offer">
+              <h3>7 Days – Amboseli & Tsavo</h3>
+              <ul>
+                <li>Elephant-focused safari routes</li>
+                <li>Big cats and varied habitats</li>
+                <li>Photogenic landscape stops</li>
+              </ul>
+            </article>
+
+            <article class="offer">
+              <h3>8 Days – Nakuru, Naivasha & The Rift Valley</h3>
+              <ul>
+                <li>Flamingos & birdlife</li>
+                <li>Lake experiences & wildlife drives</li>
+                <li>High-quality guiding and planning</li>
+              </ul>
+            </article>
+
+            <article class="offer">
+              <h3>9 Days – Samburu & Northern Kenya</h3>
+              <ul>
+                <li>Distinct northern species</li>
+                <li>Off-the-beaten-track destinations</li>
+                <li>Flexible options for families/groups</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--gray">
+        <div class="container">
+          <h2>Enquire</h2>
+          <form class="form" id="enquiryForm">
+            <label>
+              Full name
+              <input name="name" required placeholder="Your name" />
+            </label>
+            <label>
+              Email or phone
+              <input name="contact" required placeholder="Phone / Email" />
+            </label>
+            <label>
+              Preferred destination(s)
+              <select name="destination">
+                <option>Masai Mara</option>
+                <option>Meru National Park</option>
+                <option>Lake Nakuru</option>
+                <option>Tsavo West</option>
+                <option>Tsavo East</option>
+                <option>Amboseli</option>
+                <option>Nairobi National Park</option>
+                <option>Lake Naivasha</option>
+                <option>Aberdare National Park</option>
+                <option>Samburu National Park</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Tell us your dates and group size"></textarea>
+            </label>
+            <button class="form__btn" type="submit">Send enquiry</button>
+            <p class="form__note" id="formNote" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <img
+            class="footer__logo"
+            src="/src/assets/viagens logo-white.png"
+            alt="Safari Africa"
+          />
+        </div>
+        <div>
+          <strong>Destinations</strong>
+          <div class="footer__links">
+            <a href="#masai-mara">Masai Mara</a>
+            <a href="#meru">Meru</a>
+            <a href="#lake-nakuru">Lake Nakuru</a>
+            <a href="#tsavo-west">Tsavo West</a>
+            <a href="#tsavo-east">Tsavo East</a>
+            <a href="#amboseli">Amboseli</a>
+            <a href="#nairobi">Nairobi NP</a>
+            <a href="#naivasha">Naivasha</a>
+            <a href="#aberdare">Aberdare</a>
+            <a href="#samburu">Samburu</a>
+          </div>
+        </div>
+        <div>
+          <strong>Contact</strong>
+          <p class="footer__muted">Nairobi, Kenya</p>
+          <p class="footer__muted">+254 712 345 678</p>
+          <p class="footer__muted">info@safariafrica.com</p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        © <span id="year"></span> Viagens Africa Safaris. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="/public/kenya.js" defer></script>
+  </body>
+</html>
+
